@@ -15,6 +15,7 @@ BuildRequires:	pkgconfig(libdrm_freedreno)
 BuildRequires:	pkgconfig(xorg-macros)
 BuildRequires:	pkgconfig(xorg-server)
 BuildRequires:	pkgconfig(xproto)
+BuildRequires:	pkgconfig(udev)
 Requires:	x11-server-common %(xserver-sdk-abi-requires videodrv)
 
 %description
