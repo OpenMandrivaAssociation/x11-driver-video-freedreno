@@ -3,7 +3,7 @@
 Summary:	X.org driver for freedreno
 Name:		x11-driver-video-freedreno
 Version:	1.0.0
-Release:	2
+Release:	3
 Group:		System/X11
 License:	MIT
 URL:		http://xorg.freedesktop.org
