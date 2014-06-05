@@ -2,13 +2,13 @@
 
 Summary:	X.org driver for freedreno
 Name:		x11-driver-video-freedreno
-Version:	1.0.0
-Release:	6
+Version:	1.1.0
+Release:	1
 Group:		System/X11
 License:	MIT
 URL:		http://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-freedreno-%{version}.tar.bz2
-
+Patch0:		freedreno-constant-operand-1.1.0.patch
 BuildRequires:	pkgconfig(gl)
 BuildRequires:	pkgconfig(libdrm)
 BuildRequires:	pkgconfig(libdrm_freedreno)
@@ -34,3 +34,4 @@ x11-driver-video-freedreno is the X.org driver for Adreno graphics chips
 
 %files
 %{_libdir}/xorg/modules/drivers/freedreno_drv.so
+%{_mandir}/man4/*

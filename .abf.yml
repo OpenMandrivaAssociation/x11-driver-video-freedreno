@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   xf86-video-freedreno-1.0.0.tar.bz2: c4e94e827793565a745a13480efe83aae68feada
+sources:
+  xf86-video-freedreno-1.1.0.tar.bz2: bbf6210c9e1bccd35819a5b8d1ae86824d36bf16
