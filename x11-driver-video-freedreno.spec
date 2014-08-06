@@ -26,7 +26,9 @@ x11-driver-video-freedreno is the X.org driver for Adreno graphics chips
 %apply_patches
 
 %build
-%configure2_5x
+# CFLAGS need some fixes
+export CC=gcc
+%configure
 %make
 
 %install
