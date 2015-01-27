@@ -17,7 +17,7 @@ BuildRequires:	pkgconfig(xorg-server)
 BuildRequires:	pkgconfig(xproto)
 BuildRequires:	pkgconfig(udev)
 Requires:	x11-server-common %(xserver-sdk-abi-requires videodrv)
-ExclusiveArch:	%armv7hl %aarch64
+ExclusiveArch:	%armx
 
 %description
 x11-driver-video-freedreno is the X.org driver for Adreno graphics chips
