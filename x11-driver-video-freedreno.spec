@@ -8,8 +8,6 @@ Group:		System/X11
 License:	MIT
 URL:		http://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-freedreno-%{version}.tar.bz2
-Patch1:		0002-xa-fix-leaked-xa-tracker.patch
-Patch2:		0003-kms-add-additional-output-names.patch
 Buildrequires:	pkgconfig(gl)
 BuildRequires:	pkgconfig(libdrm)
 BuildRequires:	pkgconfig(libdrm_freedreno)
