@@ -1,4 +1,5 @@
 %define _disable_ld_no_undefined 1
+%global optflags %{optflags} -fuse-ld=bfd
 
 Summary:	X.org driver for freedreno
 Name:		x11-driver-video-freedreno
@@ -28,9 +29,6 @@ x11-driver-video-freedreno is the X.org driver for Adreno graphics chips
 [ -e configure ] || ./autogen.sh
 
 %build
-# CFLAGS need some fixes
-# error: unknown attribute 'error' ignored
-#export CC=gcc
 %configure
 %make
 
