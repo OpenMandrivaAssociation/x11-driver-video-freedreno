@@ -10,6 +10,11 @@ License:	MIT
 URL:		https://xorg.freedesktop.org
 # From git@github.com:freedreno/xf86-video-freedreno.git
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-freedreno-%{version}.tar.xz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 Buildrequires:	pkgconfig(gl)
 BuildRequires:	pkgconfig(libdrm)
 BuildRequires:	pkgconfig(libdrm_freedreno)
